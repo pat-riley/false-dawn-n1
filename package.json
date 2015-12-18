@@ -1,0 +1,15 @@
+{
+  "name": "false-dawn-theme",
+  "theme": "False Dawn",
+  "version": "0.1.0",
+  "description": "False Dawn N1 Client Theme",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "nylas": ">=0.3.32-b11131d"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
