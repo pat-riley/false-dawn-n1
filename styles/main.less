@@ -1,19 +1,92 @@
 @import "ui-variables";
 @import "ui-mixins";
 
-// .my-package .btn {
-//   background-color: #f2f2f2;
-// }
 
-.btn {
-  background-color: #f2f2f2;
+
+
+// Top title bar
+.sheet-toolbar-container {
+
+  // when it's split mode
+  .mode-split {
+
+  }
+
 }
 
+
+
+
+
+//sidebar
+#account-switcher {
+  background: #3F3F47;
+  border-bottom: 1px solid #656565;
+  .item {
+      color: rgba(255, 255, 255, 0.8);
+      .gravatar {}
+  }
+}
+
+
+#account-sidebar {
+  background: #3F3F47;
+  .heading {
+      color: rgba(255, 255, 255, 0.5);
+  }
+  .item {
+      color: rgba(255, 255, 255, 0.5);
+      img.content-mask {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+  }
+  .item.selected {
+    img.content-mask {
+          background-color: #4DDA6A;
+    }
+  }
+}
+
+.scrollbar-track {
+  border-left: none;
+  background: transparent;
+  .scrollbar-handle {
+    border: 1px solid #5A5A5A;
+    border-radius: 20px;
+    width: 1px;
+    right: -12px;
+  }
+}
+
+#account-sidebar .item.selected {
+  background: #3F3F47;
+  color: #4DDA6A;
+}
 
 .account-sidebar-sections {
-  background-color: #323232;
+  background: #3F3F47;
 }
 
-#account-switcher {
-  background-color: #323232;
+
+
+.list-container .list-item.focused {
+  background: #4DDA6A;
+}
+
+
+
+
+//normal list item
+.thread-list {
+  .list-item {
+
+  }
+
+}
+
+
+
+// background
+#message-list {
+  background: #F0EDE7;
 }
